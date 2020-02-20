@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string name="app_name">rma16859_2018</string>
+<string name="Ponisti">Ponisti</string>
+<string name="Brojknjiga">Broj knjiga:</string>
+<string name="Upisiknjigu">Upisi knjigu</string>
+<string name="Nadjisliku">Nadji sliku</string>
+<string name="Imeautora">Autor...</string>
+<string name="Nazivknjige">Knjiga...</string>
+<string name="Trazi">Trazi...</string>
+<string name="Pretraga">Pretraga</string>
+<string name="dodajkategoriju">Dodaj kategoriju</string>
+<string name="dodajknjigu">Dodaj knjigu</string>
+<string name="Kategorije">Kategorije</string>
+<string name="Autori">Autori</string>
+    <string name="Dodajknjigu_online">Dodaj knjigu online</string>
+    <string name="BrojStranica">Broj stranica:</string>
+    <string name="Preporuci">Preporuci</string>
+    <string name="Posalji">Posalji</string>
+
+</resources>

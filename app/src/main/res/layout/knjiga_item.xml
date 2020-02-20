@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/eNaslovna" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerAutoriKnjige"
+        android:layout_below="@+id/eAutor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/eNaslovna"
+        android:layout_toEndOf="@+id/eNaslovna" />
+
+    <TextView
+        android:text="e naziv Knjige"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNaziv"
+        android:textSize="20dp"
+        android:layout_below="@+id/eNaslovna"
+        android:layout_centerHorizontal="true"
+       />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eDatumObjavljivanja"
+        android:layout_alignTop="@+id/eNaslovna"
+        android:layout_toRightOf="@+id/eNaslovna"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eOpis"
+        android:layout_below="@+id/eNaziv"
+        android:layout_alignLeft="@+id/eNaslovna"
+        android:layout_alignStart="@+id/eNaslovna"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text=" e Naziv Autora"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eAutor"
+        android:layout_below="@+id/eDatumObjavljivanja"
+        android:layout_toRightOf="@+id/eNaslovna"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/BrojStranica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eNaziv"
+        android:layout_toRightOf="@+id/eNaslovna"
+        android:id="@+id/txtbrojStranica"
+        />
+
+    <TextView
+        android:text="eBrojStranica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eNaziv"
+        android:layout_toRightOf="@+id/txtbrojStranica"
+        android:layout_toEndOf="@+id/txtbrojStranica"
+        android:id="@+id/eBrojStranica" />
+
+    <Button
+        android:text="@string/Preporuci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dPreporuci"
+        android:layout_below="@+id/spinnerAutoriKnjige"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

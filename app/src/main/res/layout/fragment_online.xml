@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="119dp"
+            android:id="@+id/sKategorije"
+            android:layout_below="@+id/dRun"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dRun"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="52dp"
+            android:id="@+id/sRezultati" />
+
+        <Button
+            android:text="@string/dodajknjigu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dAdd"
+            android:layout_below="@+id/sKategorije"
+            android:layout_alignLeft="@+id/dRun"
+            android:layout_alignStart="@+id/dRun"
+            android:layout_marginTop="112dp" />
+
+        <Button
+            android:text="@string/Ponisti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dPovratak"
+            android:layout_alignBaseline="@+id/dAdd"
+            android:layout_alignBottom="@+id/dAdd"
+            android:layout_alignLeft="@+id/tekstUpit"
+            android:layout_alignStart="@+id/tekstUpit" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Pretraga"
+            android:ems="10"
+            android:layout_marginTop="41dp"
+            android:id="@+id/tekstUpit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="@string/Pretraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dRun"
+            android:layout_alignBaseline="@+id/tekstUpit"
+            android:layout_alignBottom="@+id/tekstUpit"
+            android:layout_toRightOf="@+id/tekstUpit"
+            android:layout_toEndOf="@+id/tekstUpit"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</LinearLayout>

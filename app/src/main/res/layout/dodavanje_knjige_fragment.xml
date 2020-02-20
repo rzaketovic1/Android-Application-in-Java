@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/naslovnaStr" />
+
+        <Button
+            android:text="@string/Upisiknjigu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dNadjiSliku"
+            android:layout_alignRight="@+id/dNadjiSliku"
+            android:layout_alignEnd="@+id/dNadjiSliku"
+            android:layout_marginTop="20dp"
+            android:id="@+id/dUpisiKnjigu" />
+
+        <Button
+            android:text="@string/Nadjisliku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="43dp"
+            android:layout_marginEnd="43dp"
+            android:id="@+id/dNadjiSliku"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/naslovnaStr"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:id="@+id/sKategorijaKnjige" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Imeautora"
+            android:ems="10"
+            android:layout_marginTop="40dp"
+            android:id="@+id/imeAutora"
+            android:layout_below="@+id/sKategorijaKnjige"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/Nazivknjige"
+            android:ems="10"
+            android:id="@+id/nazivKnjige"
+            android:layout_below="@+id/imeAutora"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:text="@string/Ponisti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/nazivKnjige"
+           android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="30dp"
+            android:id="@+id/dPonisti" />
+    </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

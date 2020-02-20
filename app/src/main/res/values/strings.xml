@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">rma16859_2018</string>
+    <string name="Ponisti">Cancel</string>
+    <string name="Brojknjiga">Number of books:</string>
+    <string name="Upisiknjigu">Save Book</string>
+    <string name="Nadjisliku">Add Image</string>
+    <string name="Imeautora">Author...</string>
+    <string name="Nazivknjige">Name of the book...</string>
+    <string name="Trazi">Text for search...</string>
+    <string name="Pretraga">Search</string>
+    <string name="dodajkategoriju">Add Category</string>
+    <string name="dodajknjigu">Add Book</string>
+    <string name="Kategorije">Categories</string>
+    <string name="Autori">Authors</string>
+    <string name="Dodajknjigu_online">Add Book online</string>
+    <string name="BrojStranica">Page Count:</string>
+    <string name="Preporuci">Recommend</string>
+    <string name="Posalji">Send</string>
+
+</resources>

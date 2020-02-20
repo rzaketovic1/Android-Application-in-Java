@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+
+    <TextView
+        android:text="TextViewImeAutora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewImeAutora"
+        android:textSize="20dp"
+        android:layout_weight="0.65" />
+
+
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="5"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBrojKnjiga"
+        android:layout_weight="0.05" />
+
+
+    <TextView
+        android:layout_toLeftOf="@+id/textViewBrojKnjiga"
+        android:textSize="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Brojknjiga"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_weight="0.30" />
+
+    <Spinner
+        android:id="@+id/spinnerKnjigeAutora"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewImeAutora"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/knjigaAutora"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewImeAutora"/>
+
+
+</RelativeLayout>
